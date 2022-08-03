@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/aidan-react-website/precache-manifest.5e0e8460b8b325c45cb089619d9704ec.js"
+  "/aidan-react-website/precache-manifest.26e9d608a76a2ff9f2ed5e7ad8123d1e.js"
 );
 
 workbox.clientsClaim();
