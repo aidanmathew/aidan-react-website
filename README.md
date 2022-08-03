@@ -1,3 +1,9 @@
+# aidanmathew.github.io
+
+This repository is a personal project that inspired me as a result of my first internship as a Web Developer Intern!
+
+Feel free to checkout the github pages at https://aidanmathew.github.io/aidan-react-website/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
