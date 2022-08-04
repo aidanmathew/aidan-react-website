@@ -26,8 +26,8 @@
   .navbar a {
     color: white;
     text-decoration: none;
-    margin: 20px;
-    font-size: 25px;
+    margin: 2rem;
+    font-size: 1.6rem;
   }
   
   .toggleButton {
@@ -66,7 +66,7 @@
   
   @media only screen and (max-width: 900px) {
     .navbar a {
-      width: 70px;
+      width: 80vw;
     }
   }
   
@@ -79,7 +79,7 @@
     }
   }
   
-  @media only screen and (min-width: 600px) {
+  @media only screen and (min-width: 601px) {
     .toggleButton {
       display: none;
     }
