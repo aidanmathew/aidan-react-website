@@ -1,7 +1,7 @@
 {
   "name": "aidan-react-website",
   "version": "0.1.0",
-  "homepage": "https://aidanmathew.github.io/aidan-react-website",
+  "homepage": "https://aidanmathew.github.io/aidan-react-website/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.4",

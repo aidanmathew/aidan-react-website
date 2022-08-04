@@ -9,7 +9,7 @@ import "../styles/Footer.css"
 function Footer() {
   return (
     <div className="footer">
-        <p> Feel free to connect with me on social media!</p>
+        <p> Connect with me on social media!</p>
         <div className="socialMedia">
             <Link href="https://www.linkedin.com/in/Aidan-Mathew/" target="_blank" >
                 <LinkedInIcon />
