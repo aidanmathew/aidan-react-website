@@ -1,15 +1,15 @@
 {
-  "main.css": "/aidan-react-website/static/css/main.79e6511a.chunk.css",
-  "main.js": "/aidan-react-website/static/js/main.e0917a7b.chunk.js",
-  "main.js.map": "/aidan-react-website/static/js/main.e0917a7b.chunk.js.map",
-  "static/js/1.e67e6547.chunk.js": "/aidan-react-website/static/js/1.e67e6547.chunk.js",
-  "static/js/1.e67e6547.chunk.js.map": "/aidan-react-website/static/js/1.e67e6547.chunk.js.map",
-  "static/js/2.2e7ed998.chunk.js": "/aidan-react-website/static/js/2.2e7ed998.chunk.js",
-  "static/js/2.2e7ed998.chunk.js.map": "/aidan-react-website/static/js/2.2e7ed998.chunk.js.map",
-  "runtime~main.js": "/aidan-react-website/static/js/runtime~main.252683e3.js",
-  "runtime~main.js.map": "/aidan-react-website/static/js/runtime~main.252683e3.js.map",
-  "static/css/main.79e6511a.chunk.css.map": "/aidan-react-website/static/css/main.79e6511a.chunk.css.map",
-  "index.html": "/aidan-react-website/index.html",
-  "precache-manifest.2cbb4d0259ab8a6443668cb1f21a1b0a.js": "/aidan-react-website/precache-manifest.2cbb4d0259ab8a6443668cb1f21a1b0a.js",
-  "service-worker.js": "/aidan-react-website/service-worker.js"
+  "main.css": "/static/css/main.79e6511a.chunk.css",
+  "main.js": "/static/js/main.606724f2.chunk.js",
+  "main.js.map": "/static/js/main.606724f2.chunk.js.map",
+  "static/js/1.e67e6547.chunk.js": "/static/js/1.e67e6547.chunk.js",
+  "static/js/1.e67e6547.chunk.js.map": "/static/js/1.e67e6547.chunk.js.map",
+  "static/js/2.2e7ed998.chunk.js": "/static/js/2.2e7ed998.chunk.js",
+  "static/js/2.2e7ed998.chunk.js.map": "/static/js/2.2e7ed998.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.b032b849.js",
+  "runtime~main.js.map": "/static/js/runtime~main.b032b849.js.map",
+  "static/css/main.79e6511a.chunk.css.map": "/static/css/main.79e6511a.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.0b10b5d52618aff4608ec3f546697634.js": "/precache-manifest.0b10b5d52618aff4608ec3f546697634.js",
+  "service-worker.js": "/service-worker.js"
 }
