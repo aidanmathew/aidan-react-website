@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+
+:root {
+    --navbarBackground: rgb(148,0,211);
+    --text: rgb(0,0,0);
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+  }
+
+.home {
+    width: 100%;
+    align-items: center;
+    background-color: #4158D0;
+    background-image: linear-gradient(90deg, #4158D0 0%, #C850C0 100%);
+  }
+ 
+.gradient {
+    background: linear-gradient(90deg, rgba(57,0,86,1) 0%, rgba(78,0,71,1) 100%);    
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #4158D0;
+    background-image: linear-gradient(90deg, #4158D0 0%, #C850C0 100%);
+    color: #f0f0f0;
+  }
+  
+.about h2 {
+    font-size: 3rem;
+    color: --text;
+    height: 2rem;
+  }
+  
+.about .prompt {
+    width: 90%;
+    font-size: 2rem;
+  }
+
+.prompt svg {
+    font-size: 60px;
+    margin: 5px;
+    color: white;
+  }
+
+.prompt svg:hover {
+    font-size: 60px;
+    margin: 5px;
+    color: rgba(57,0,86,1);
+  }
+  
+.skills {
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.skills h1 {
+    color: #3e497a;
+  }
+  
+.skills .list {
+    list-style: none;
+    width: 100%;
+    padding: 0%;
+  }
+  
+.list span {
+    font-size: 20px;
+  }
+  
+@media only screen and (max-width: 600px) {
+.about h2 {
+    font-size: 40px;
+}
+  
+.about .prompt {
+    margin-top: 1.2rem;
+    font-size: 20px;
+    width: 80%;
+}
+
+.skills {
+    text-align: center;
+}
+.list {
+    padding: 0;
+}
+
+.skills h2 {
+    font-size: 30px;
+}
+}

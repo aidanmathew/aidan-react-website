@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
 
 :root {
-    --navbarBackground: rgb(148,0,211)
+  --accent1: #971d15;
+  --accent2: #f9433dcc;
+  --navbarBackground: -webkit-linear-gradient(var(--accent2), var(--accent1));
 }
 
 * {
@@ -11,7 +13,8 @@
 .navbar {
     width: 100%;
     height: 100px;
-    background: var(--navbarBackground);
+    background-color: #4158D0;
+    background-image: linear-gradient(90deg, #4158D0 0%, #C850C0 100%);
   }
   
   .links {

@@ -12,9 +12,9 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/experience" element={<Experience />} />
+        <Route path={process.env.PUBLIC_URL + "/"} element={<Home />} />
+        <Route path={process.env.PUBLIC_URL + "/projects"} element={<Projects />} />
+        <Route path={process.env.PUBLIC_URL + "experience"} element={<Experience />} />
       </Routes>
       <Footer />
     </Router>
