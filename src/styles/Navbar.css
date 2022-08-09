@@ -1,9 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
 
 :root {
-  --accent1: #971d15;
-  --accent2: #f9433dcc;
-  --navbarBackground: -webkit-linear-gradient(var(--accent2), var(--accent1));
+  --text: #fff
 }
 
 * {

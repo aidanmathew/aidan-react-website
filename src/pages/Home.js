@@ -4,12 +4,20 @@ import EmailIcon from '@material-ui/icons/Email'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import TypeIt from 'typeit-react'
 import "../styles/Home.css"
-
+import Aidan from "../media/IMG_0194.jpeg"
 function Home() {
   return (
     <div className="home">
 
       <div className="about">
+
+        <img
+          className="aidanImage"
+          src={Aidan}
+          alt=""
+        />
+        
+        
         <h2> Hello! My name is <span className="gradient">Aidan</span>! </h2>
 
         <div className="prompt">
@@ -38,7 +46,6 @@ function Home() {
             .type("an Analytical Thinker.")
             .pause(1000)
             .delete()
-        
             // Remember to return it!
             return instance;
 

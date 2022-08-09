@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import {Link, useLocation} from "react-router-dom"
 import "../styles/Navbar.css"
 import ReorderIcon from '@material-ui/icons/Reorder'
+import Resume from "../media/ResumeJune2022.pdf"
 
 function Navbar() {
     const [expandNavbar, setExpandNavbar] = useState(false)
@@ -31,7 +32,7 @@ function Navbar() {
             <Link to="/projects"> Projects </Link>
             <Link to="/experience"> Experience </Link>
             <a 
-            href = "https://aidanmathew.github.io/media/Aidan_Resume.pdf"
+            href = {Resume}
             target = "_blank" 
             rel="noopener noreferrer">
                 Resume

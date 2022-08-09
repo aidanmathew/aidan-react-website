@@ -2,7 +2,7 @@
 
 :root {
     --navbarBackground: rgb(148,0,211);
-    --text: rgb(0,0,0);
+    --text: #fff;
 }
 
 * {
@@ -11,9 +11,12 @@
 
 .home {
     width: 100%;
+    height: auto;
     align-items: center;
     background-color: #4158D0;
     background-image: linear-gradient(90deg, #4158D0 0%, #C850C0 100%);
+    display: flex;
+    flex-direction: column;
   }
  
 .gradient {
@@ -24,7 +27,7 @@
 
 .about {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,6 +43,18 @@
     color: --text;
     height: 2rem;
   }
+
+.about .aidanImage {
+  width: 15vw;
+  border: solid 0.25rem var(--text);
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .about .aidanImage {
+      width: 40vw;
+  }
+}
   
 .about .prompt {
     width: 90%;
