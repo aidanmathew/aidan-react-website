@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "f6265a64419076e84f32",
-    "url": "/static/css/main.b5dca941.chunk.css"
+    "revision": "e0cdbd23fd964093756c",
+    "url": "/static/css/main.b6afece7.chunk.css"
   },
   {
-    "revision": "f6265a64419076e84f32",
-    "url": "/static/js/main.f6265a64.chunk.js"
+    "revision": "e0cdbd23fd964093756c",
+    "url": "/static/js/main.e0cdbd23.chunk.js"
   },
   {
     "revision": "1fd78bf72b6aa9ef6d12",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/static/media/ResumeJune2022.1c798e56.pdf"
   },
   {
-    "revision": "26af7a07fa9d0da6bce30381b3a7bfeb",
+    "revision": "ef05d07dc09c313b6a04e97c0d3c0913",
     "url": "/index.html"
   }
 ];
