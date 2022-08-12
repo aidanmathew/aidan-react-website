@@ -75,7 +75,7 @@ function Home() {
               I am a 3rd year Computer Engineering and Management student at McMaster University.
               With a passion for technology,
               I have already completed 8-months of co-op and I am looking to gain experience in my next co-op term (May 2023).
-              I created this website to practice my programming skills, and display my projects and experiences.
+              I created this website to practice my programming skills, while also displaying personal projects and experiences.
             </span>
           </li>
         </ol>
