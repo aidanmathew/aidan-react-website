@@ -24,22 +24,34 @@
     font-size: 2rem;
   }
   .project img {
-    width: 80vw;
+    width: 90vw;
     border-radius: 10px;
   }
   
   .project p {
-    font-size: 1.6rem;
+    font-size: 2.2rem;
     color: var(--textColor);
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
   
   .project svg {
-    font-size: 4rem;
+    font-size: 5rem;
     color: var(--textColor);
+  }
+  
+  .project svg:hover {
+    color: rgba(57,0,86,1);
   }
 
   @media only screen and (min-width: 800px) {
     .project img {
         width: 400px;
+    }
+  }
+
+  @media only screen and (min-width: 1300px) {
+    .project img {
+        width: 50vw;
     }
   }

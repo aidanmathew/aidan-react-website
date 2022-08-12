@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom'
 import OpenInNew from '@material-ui/icons/OpenInNew';
 import { ProjectList } from '../dataHelpers/ProjectList'
 import "../styles/ProjectDisplay.css"
+import { Link } from '@material-ui/core';
 
 
 function ProjectDisplay() {
@@ -18,7 +19,9 @@ function ProjectDisplay() {
         <p>
             <b>Skills: </b> {project.skills}
         </p>
-        <OpenInNew />
+        <Link href={project.link} target="_blank">
+            <OpenInNew />
+        </Link>
     </div>
   )
 }

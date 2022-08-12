@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react'
-import {Link, useLocation} from "react-router-dom"
-import "../styles/Navbar.css"
-import ReorderIcon from '@material-ui/icons/Reorder'
-import Resume from "../media/ResumeJune2022.pdf"
+import React, { useEffect, useState } from 'react';
+import {Link, useLocation} from "react-router-dom";
+import "../styles/Navbar.css";
+import ReorderIcon from '@material-ui/icons/Reorder';
+import Resume from "../media/ResumeJune2022.pdf";
 
 function Navbar() {
     const [expandNavbar, setExpandNavbar] = useState(false)
@@ -42,4 +42,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Navbar;

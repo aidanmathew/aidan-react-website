@@ -45,7 +45,7 @@
   }
 
 .about .aidanImage {
-  width: 15vw;
+  width: 17vw;
   border: solid 0.25rem var(--text);
   border-radius: 50%;
 }
@@ -53,6 +53,10 @@
 @media only screen and (max-width: 600px) {
   .about .aidanImage {
       width: 40vw;
+  }
+
+  .about h2 {
+    font-size: 2rem;
   }
 }
   
@@ -84,7 +88,9 @@
   }
   
 .skills h1 {
-    color: #3e497a;
+    color: black;
+    font-size: 3rem;
+    margin-bottom: 0%;
   }
   
 .skills .list {
@@ -97,13 +103,17 @@
     font-size: 20px;
   }
   
-@media only screen and (max-width: 600px) {
-.about h2 {
-    font-size: 40px;
+.item {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 0.5rem;
 }
   
+@media only screen and (max-width: 600px) {
+  
 .about .prompt {
-    margin-top: 1.2rem;
+    margin-top: -1.2rem;
     font-size: 20px;
     width: 80%;
 }

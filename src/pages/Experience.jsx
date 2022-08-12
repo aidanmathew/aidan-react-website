@@ -4,15 +4,39 @@ import {
   VerticalTimelineElement
 } from "react-vertical-timeline-component"
 import "react-vertical-timeline-component/style.min.css"
-import SchoolIcon from "@material-ui/icons/School"
+import SchoolIcon from "@material-ui/icons/School";
+import WorkIcon from "@material-ui/icons/Work"
 import HouseIcon from '@material-ui/icons/House';
+import { ExperiencesList } from "../dataHelpers/Experiences";
 
 
 function Experience() {
   return (
     <div className="experience">
       <VerticalTimeline lineColor={ 'black' }>
-        
+
+        {ExperiencesList.map((experience) => {
+          return <VerticalTimelineElement 
+          className="vertical-timeline-element--work"
+          iconStyle={{ background: "#ffab03", color: "#fff" }}
+          icon={<WorkIcon />}>
+            <h3 className="vertical-timeline-element-title"> {experience.title} </h3>
+            <h4 className="vertical-timeline-element-subtitle"> {experience.subtitle} </h4>
+            <h5 className="vertical-timeline-element-subtitle"> {experience.date} </h5>
+            <p className="experience-text">
+              {experience.description} 
+              <a href={experience.link} target = "_blank" rel="noopener noreferrer">
+                {experience.application}
+              </a>. 
+            </p>
+            <p className="experience-text">
+              <b>Skills:</b> {experience.skills}
+            </p>
+          </VerticalTimelineElement>
+          
+        })}
+
+
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           iconStyle={{ background: "#3e497a", color: "#fff"}}

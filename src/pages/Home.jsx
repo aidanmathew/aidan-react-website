@@ -5,6 +5,7 @@ import GitHubIcon from '@material-ui/icons/GitHub'
 import TypeIt from 'typeit-react'
 import "../styles/Home.css"
 import Aidan from "../media/IMG_0194.jpeg"
+import { Link } from '@material-ui/core'
 function Home() {
   return (
     <div className="home">
@@ -18,7 +19,7 @@ function Home() {
         />
         
         
-        <h2> Hello! My name is <span className="gradient">Aidan</span>! </h2>
+        <h2> Hello! I'm <span className="gradient">Aidan</span>! </h2>
 
         <div className="prompt">
           <p>I am <TypeIt
@@ -50,34 +51,33 @@ function Home() {
             return instance;
 
           }}></TypeIt></p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GitHubIcon />
+          
+          <Link href="http://www.linkedin.com/in/aidan-mathew" target='_blank' rel='noopener'>
+            <LinkedInIcon />
+          </Link>
+
+          <Link href="mailto:mathea40@mcmaster.ca">
+            <EmailIcon />
+          </Link>
+
+          <Link href="https://github.com/aidanmathew">
+            <GitHubIcon />
+          </Link>
+
         </div>
       </div>
 
       <div className="skills">
-        <h1> My Skills </h1>
+        <h1> About Me </h1>
         <ol className="list">
           <li className="item">
-            <h2> Languages </h2>
             <span>
-              Java, Python, C/C++, Javascript, Swift, R, SQL
+              I am a 3rd year Computer Engineering and Management student at McMaster University.
+              With a passion for technology,
+              I have already completed 8-months of co-op and I am looking to gain experience in my next co-op term (May 2023).
+              I created this website to practice my programming skills, and display my projects and experiences.
             </span>
           </li>
-          <li className="item">
-            <h2> Web Development </h2>
-            <span>
-              ReactJS, HTML, CSS, Bootstrap, Material-UI, react-router-dom, npm, yarn, NodeJS
-            </span>
-          </li>
-          <li className="item">
-            <h2> Tools </h2>
-            <span>
-              VS Code, Git, MS Office, G-suite, XCode, Jira, Confluence, Slack
-            </span>
-          </li>
-
         </ol>
       </div>
     </div>
