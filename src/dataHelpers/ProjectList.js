@@ -17,7 +17,7 @@ export const ProjectList = [
     {
         name: "POST-study Project",
         image: macAI,
-        skills: "python, SVM, numpy, pandas, VSCode, Zenhub",
+        skills: "Python, SVM, numpy, pandas, VSCode, Zenhub",
         link: "https://github.com/McMasterAI/POST_study_Project"
     },
 
@@ -31,7 +31,7 @@ export const ProjectList = [
     {
         name: "Q-Support",
         image: Project3,
-        skills: "Python, Rapid Prototyping, Physical Computing, Excel",
+        skills: "Rapid Prototyping, Autodesk Inventor, project planning, Simulations",
         link: "https://mathea40.wixsite.com/1p13portfolio/p-4"
     },
     
