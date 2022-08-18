@@ -8,6 +8,8 @@ import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from "@material-ui/icons/Work"
 import HouseIcon from '@material-ui/icons/House';
 import { ExperiencesList } from "../dataHelpers/Experiences";
+import STA from "../media/STA.jpg"
+import MGT from "../media/MGT.jpg"
 
 
 function Experience() {
@@ -20,9 +22,27 @@ function Experience() {
           className="vertical-timeline-element--work"
           iconStyle={{ background: "#ffab03", color: "#fff" }}
           icon={<WorkIcon />}>
+            <img
+              style={{
+                width: "10rem",
+                padding: "0.5rem",
+                border: "0.1rem solid black",
+                borderRadius: "10px"
+              }}
+              src={experience.img}
+              alt=""
+            />
             <h3 className="vertical-timeline-element-title"> {experience.title} </h3>
-            <h4 className="vertical-timeline-element-subtitle"> {experience.subtitle} </h4>
-            <h5 className="vertical-timeline-element-subtitle"> {experience.date} </h5>
+            <h4 className="vertical-timeline-element-subtitle"
+                style={{
+                  color: "darkMagenta"
+              }}
+            > {experience.subtitle} </h4>
+            <h5 className="vertical-timeline-element-subtitle"
+                style={{
+                  color: "gray"
+              }}
+            > {experience.date} </h5>
             <p className="experience-text">
               {experience.description} 
               <a href={experience.link} target = "_blank" rel="noopener noreferrer">
@@ -42,9 +62,27 @@ function Experience() {
           iconStyle={{ background: "#3e497a", color: "#fff"}}
           icon={<SchoolIcon />}
         >
+          <img
+            style={{
+              width: "10rem",
+              padding: "0.5rem",
+              border: "0.1rem solid black",
+              borderRadius: "10px"
+            }}
+            src={MGT}
+            alt=""
+          />
           <h3 className="vertical-timeline-element-title"> McMaster University, B.Eng.Mgt</h3>
-          <h4 className="vertical-timeline-element-subtitle"> Hamilton, Ontario </h4>
-          <h5 className="vertical-timeline-element-subtitle"> Sept 2020 - April 2025 </h5>
+          <h4 className="vertical-timeline-element-subtitle"
+              style={{
+                color: "darkMagenta"
+            }}
+          > Hamilton, Ontario </h4>
+          <h5 className="vertical-timeline-element-subtitle"
+              style={{
+                color: "gray"
+            }}
+          > Sept 2020 - April 2025 </h5>
           <p className="experience-text"> <b>Awards:</b> McMaster Honor Award, Dean's Honor List </p>
           <p className="experience-text">
             <b>Relevant Courses:</b> Data Structures and Algorithms,
@@ -59,9 +97,27 @@ function Experience() {
           iconStyle={{ background: "#3e497a", color: "#fff"}}
           icon={<SchoolIcon />}
         >
+          <img
+            style={{
+              width: "10rem",
+              padding: "0.5rem",
+              border: "0.1rem solid black",
+              borderRadius: "10px"
+            }}
+            src={STA}
+            alt=""
+          />
           <h3 className="vertical-timeline-element-title"> St. Thomas Aquinas Catholic Secondary School</h3>
-          <h4 className="vertical-timeline-element-subtitle"> Oakville, Ontario </h4>
-          <h5 className="vertical-timeline-element-subtitle"> Sept 2016 - June 2020 </h5>
+          <h4 className="vertical-timeline-element-subtitle"
+              style={{
+                color: "darkMagenta"
+            }}
+          > Oakville, Ontario </h4>
+          <h5 className="vertical-timeline-element-subtitle"
+              style={{
+                color: "gray"
+            }}
+          > Sept 2016 - June 2020 </h5>
           <p className="experience-text"> Completed Ontario Secondary School Diploma and International Baccalaureate Diploma. </p>
         </VerticalTimelineElement>
 

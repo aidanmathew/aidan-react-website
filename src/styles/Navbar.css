@@ -6,6 +6,7 @@
 
 * {
     font-family: "Roboto", sans-serif;
+    font-size: 400;
   }
 
 .navbar {
@@ -29,6 +30,12 @@
     text-decoration: none;
     margin: 2rem;
     font-size: 1.6rem;
+  }
+
+  .navbar a:hover {
+    background: linear-gradient(90deg, rgba(57,0,86,1) 0%, rgba(78,0,71,1) 100%);    
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   
   .toggleButton {

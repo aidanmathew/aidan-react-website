@@ -81,9 +81,9 @@
     font-size: 35px;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     text-align: center;
   }
   
@@ -91,6 +91,8 @@
     color: black;
     font-size: 3rem;
     margin-bottom: 0%;
+    margin-left: 2rem;
+    text-decoration: underline;
   }
   
 .skills .list {
@@ -101,6 +103,7 @@
   
 .list span {
     font-size: 20px;
+    font-weight: 300;
   }
   
 .item {
@@ -119,8 +122,19 @@
 }
 
 .skills {
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
+
+.skills h1 {
+  margin-left: 0rem;
+}
+
 .list {
     padding: 0;
 }
