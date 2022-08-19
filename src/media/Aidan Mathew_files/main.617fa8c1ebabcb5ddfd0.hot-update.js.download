@@ -1,0 +1,104 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/pages/Projects.jsx":
+/*!********************************!*\
+  !*** ./src/pages/Projects.jsx ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _mui_material_Card__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @mui/material/Card */ "./node_modules/@mui/material/Card/index.js");
+/* harmony import */ var _styles_Projects_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/Projects.css */ "./src/styles/Projects.css");
+/* harmony import */ var _styles_Projects_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_Projects_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _dataHelpers_ProjectList__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../dataHelpers/ProjectList */ "./src/dataHelpers/ProjectList.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/index.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/index.js");
+var _jsxFileName = "C:\\github\\new_portfolio\\aidan-react-website\\src\\pages\\Projects.jsx";
+ // import ProjectItem from "../components/ProjectItem"
+
+
+
+
+
+
+
+function Projects() {
+  var _this = this;
+
+  var navigate = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_5__["useNavigate"])();
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "projects",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 5
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 7
+    }
+  }, "My Personal Projects"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "projectList",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, _dataHelpers_ProjectList__WEBPACK_IMPORTED_MODULE_3__["ProjectList"].map(function (project, idx) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_mui_material_Card__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      className: "projectItem",
+      id: idx,
+      name: project.name,
+      image: project.image,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16,
+        columnNumber: 18
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_mui_material__WEBPACK_IMPORTED_MODULE_4__["CardActionArea"], {
+      onClick: function onClick() {
+        navigate("/projects/" + idx);
+      },
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22,
+        columnNumber: 13
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_mui_material__WEBPACK_IMPORTED_MODULE_4__["CardMedia"], {
+      component: "img",
+      height: "220",
+      image: project.image,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25,
+        columnNumber: 15
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 30,
+        columnNumber: 15
+      }
+    }, "Hello")));
+  })));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Projects);
+
+/***/ })
+
+})
+//# sourceMappingURL=main.617fa8c1ebabcb5ddfd0.hot-update.js.map
