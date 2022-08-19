@@ -5,7 +5,6 @@ import {
 } from "react-vertical-timeline-component"
 import "react-vertical-timeline-component/style.min.css"
 import SchoolIcon from "@material-ui/icons/School";
-import WorkIcon from "@material-ui/icons/Work"
 import HouseIcon from '@material-ui/icons/House';
 import { ExperiencesList } from "../dataHelpers/Experiences";
 import STA from "../media/STA.jpg"
@@ -21,7 +20,7 @@ function Experience() {
           return <VerticalTimelineElement 
           className="vertical-timeline-element--work"
           iconStyle={{ background: "#ffab03", color: "#fff" }}
-          icon={<WorkIcon />}>
+          icon={experience.icon}>
             <img
               style={{
                 width: "10rem",

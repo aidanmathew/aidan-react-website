@@ -27,10 +27,15 @@
     font-size: 2rem;
     cursor: pointer;
   }
+
+  .socialMedia svg:hover{
+    color: rgba(57,0,86,1);
+  }
   
   .footer p {
     color: white;
     font-size: 1.2rem;
+    font-weight: 300;
   }
   
   @media only screen and (max-width: 600px) {

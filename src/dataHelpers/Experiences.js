@@ -1,6 +1,10 @@
+import React from "react"
 import PCC from "../media/PCC.jpg"
 import MGT from "../media/MGT.jpg"
 import GEOTAB from "../media/geotab.jpg"
+import Work from "@material-ui/icons/Work"
+import Apple from "@material-ui/icons/Apple"
+import { GrReactjs } from "react-icons/gr"
 
 export const ExperiencesList = [
 
@@ -12,7 +16,8 @@ export const ExperiencesList = [
         skills: "D2L Brightspace, Communication, Grading, MS Office",
         link: "https://www.eng.mcmaster.ca/engineering-management-program#Curriculum:~:text=ENGNMGT%202AA3%20%2D%20Communication%20Skills",
         application: "Communication Skills",
-        img: MGT
+        img: MGT,
+        icon: <Work />
     },
 
     {
@@ -23,7 +28,8 @@ export const ExperiencesList = [
         skills: "Swift, XCode, Azure DevOps, Jira, Confluence",
         link: "https://pointclickcare.com/industry-solutions/home-health-care/",
         application: "Care at Home Clinical App",
-        img: PCC
+        img: PCC,
+        icon: <Apple />
     },
     
     {
@@ -34,7 +40,7 @@ export const ExperiencesList = [
         skills: "Javascript, React.js, material-UI, SQL, Jira, G-suite", 
         link: "https://marketplace.geotab.com/",
         application: "Geotab Marketplace",
-        img: GEOTAB
-
+        img: GEOTAB,
+        icon: <GrReactjs />
     }
 ]
