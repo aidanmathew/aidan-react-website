@@ -18,6 +18,7 @@ function Projects() {
             id={idx}
             name={project.name} 
             image={project.image}
+            key={project}
           >
             <CardActionArea onClick={() => {
               navigate("/projects/" + idx)
