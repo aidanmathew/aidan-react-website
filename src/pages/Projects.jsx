@@ -27,6 +27,10 @@ function Projects() {
                 component="img"
                 height="240"
                 image={project.image}
+                sx={{
+                  width:"240px",
+                  marginLeft:"30px"
+                }}
               />
               <CardContent style={{backgroundColor: "white"}}>
                 <p style={{color: "rgba(57,0,86,1)", fontSize: "1.5rem", margin: "0"}}>{project.name}</p>

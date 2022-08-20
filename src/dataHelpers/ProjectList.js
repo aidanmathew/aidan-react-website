@@ -1,9 +1,9 @@
-import Proj1P13 from "../media/Project1P13.jpeg"
-import Project2 from "../media/Project2.jpg"
-import Project3 from "../media/Project3.jpg"
-import Website from "../media/website.jpg"
-import Covid from "../media/covid.jpg"
-import macAI from "../media/macAI.jpg"
+import P2 from "../media/claw-machine.gif"
+import P3 from "../media/soda.gif"
+import P4 from "../media/social-care.gif"
+import Website from "../media/workplace.gif"
+import Covid from "../media/syringe.gif"
+import macAI from "../media/stethoscope.gif"
 
 export const ProjectList = [
     
@@ -30,21 +30,21 @@ export const ProjectList = [
     
     {
         name: "Q-Support",
-        image: Project3,
+        image: P4,
         skills: "Rapid Prototyping, Autodesk Inventor, project planning, Simulations",
         link: "https://mathea40.wixsite.com/1p13portfolio/p-4"
     },
     
     {
         name: "Recycling System",
-        image: Project2,
+        image: P3,
         skills: "Python, Autodesk Inventor, Autodesk, Simulations, Excel",
         link: "https://mathea40.wixsite.com/1p13portfolio/p-3"
     },
 
     {
         name: "Remote Sensing System",
-        image: Proj1P13,
+        image: P2,
         skills: "Python, Rapid Prototyping, Physical Computing, Excel",
         link: "https://mathea40.wixsite.com/1p13portfolio/p-2"
     }
