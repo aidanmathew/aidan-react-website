@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b118b8d93a4db67b2d9e",
+    "revision": "ba1b76715cf6477be0b3",
     "url": "/static/css/main.f3df8d21.chunk.css"
   },
   {
-    "revision": "b118b8d93a4db67b2d9e",
-    "url": "/static/js/main.6829ee95.chunk.js"
+    "revision": "ba1b76715cf6477be0b3",
+    "url": "/static/js/main.463f11a1.chunk.js"
   },
   {
     "revision": "c32d6075779ae06dc56a",
@@ -32,28 +32,28 @@ self.__precacheManifest = [
     "url": "/static/media/IMG_0194.0353cdb4.jpeg"
   },
   {
-    "revision": "4e8fbcb6f30cf16fc4aa1e4d1bf72c81",
-    "url": "/static/media/Project1P13.4e8fbcb6.jpeg"
+    "revision": "96c0975a2a190d38336a26f4d48d97c9",
+    "url": "/static/media/claw-machine.96c0975a.gif"
   },
   {
-    "revision": "bdc4f118b566408cd72a035fd1f0f251",
-    "url": "/static/media/Project2.bdc4f118.jpg"
+    "revision": "ad92149377111f19a25fe082399aa68e",
+    "url": "/static/media/soda.ad921493.gif"
   },
   {
-    "revision": "61d75028cc4c742ab8876b0c3f469442",
-    "url": "/static/media/Project3.61d75028.jpg"
+    "revision": "7ab8fed5f3a7a46d9f48554b0bf69fc0",
+    "url": "/static/media/social-care.7ab8fed5.gif"
   },
   {
-    "revision": "f64be1541e1eaca3e7b3004f31d69a9d",
-    "url": "/static/media/website.f64be154.jpg"
+    "revision": "c706083f10e81833da22b7853b542775",
+    "url": "/static/media/workplace.c706083f.gif"
   },
   {
-    "revision": "afe489f7f1216c54f70b037cd41bd509",
-    "url": "/static/media/covid.afe489f7.jpg"
+    "revision": "9e2fb51a5041e59511af398bc66a0395",
+    "url": "/static/media/syringe.9e2fb51a.gif"
   },
   {
-    "revision": "8b450fc34487177a1cb3615e412eec19",
-    "url": "/static/media/macAI.8b450fc3.jpg"
+    "revision": "091ee091175ca71d6756b1655c17a791",
+    "url": "/static/media/stethoscope.091ee091.gif"
   },
   {
     "revision": "376b09d4dc7bfbfcf0dc766b82970d4b",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/static/media/AidanCurrentResume.258c5c0c.pdf"
   },
   {
-    "revision": "4efa81eba66b7d887c66608f802747c0",
+    "revision": "20a9beaa0a587bdfc3a9644b2f7764c0",
     "url": "/index.html"
   }
 ];
