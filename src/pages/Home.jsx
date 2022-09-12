@@ -6,6 +6,7 @@ import TypeIt from 'typeit-react'
 import "../styles/Home.css"
 import Aidan from "../media/IMG_0194.jpeg"
 import { Link } from '@material-ui/core'
+
 function Home() {
   return (
     <div className="home">
@@ -67,7 +68,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="skills">
+      <div id="container" className="skills">
         <h1> About Me </h1>
         <ol className="list">
           <li className="item">

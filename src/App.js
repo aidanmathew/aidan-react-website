@@ -8,6 +8,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ProjectDisplay from './pages/ProjectDisplay';
 import ScrollToTop from './components/ScrollToTop';
+import { BackgroundEffect } from './components/BackgroundEffect';
 
 function App() {
   return <div className='App'>
@@ -20,6 +21,7 @@ function App() {
           <Route path={process.env.PUBLIC_URL + "/projects/:id"} element={<ProjectDisplay />} />
           <Route path={process.env.PUBLIC_URL + "experience"} element={<Experience />} />
         </Routes>
+        <BackgroundEffect />
         <Footer />
       </ScrollToTop>
     </Router>
