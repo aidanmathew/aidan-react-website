@@ -15,7 +15,7 @@ export const ExperiencesList = [
         description: "Incoming Design Studio Teaching Assistant for Engineer 1P13: ",
         skills: "D2L Brightspace, Communication, Grading, MS Office, Teaching and Mentoring",
         link: "https://www.eng.mcmaster.ca/integrated-cornerstone-design-projects-engineering-1p13",
-        application: "Integrated Cornerstone Design Projects in EngineeringS",
+        application: "Integrated Cornerstone Design Projects in Engineering",
         img: MGT,
         icon: <Work />
     },
