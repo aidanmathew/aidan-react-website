@@ -9,10 +9,22 @@ import { GrReactjs } from "react-icons/gr"
 export const ExperiencesList = [
 
     {
+        title: "Undergraduate Teaching Assistant - ENGINEER 1P13",
+        subtitle: "Hamilton, Ontario",
+        date: "January 2023 - April 2023",
+        description: "Incoming Design Studio Teaching Assistant for Engineer 1P13: ",
+        skills: "D2L Brightspace, Communication, Grading, MS Office, Teaching and Mentoring",
+        link: "https://www.eng.mcmaster.ca/integrated-cornerstone-design-projects-engineering-1p13",
+        application: "Integrated Cornerstone Design Projects in EngineeringS",
+        img: MGT,
+        icon: <Work />
+    },
+
+    {
         title: "Undergraduate Teaching Assistant - ENGMGT 2AA3",
         subtitle: "Hamilton, Ontario",
         date: "September 2022 - December 2022",
-        description: "Incoming Teaching Assistant for Engineering and Management: ",
+        description: "Teaching Assistant for Engineering and Management: ",
         skills: "D2L Brightspace, Communication, Grading, MS Office",
         link: "https://www.eng.mcmaster.ca/engineering-management-program#Curriculum:~:text=ENGNMGT%202AA3%20%2D%20Communication%20Skills",
         application: "Communication Skills",
