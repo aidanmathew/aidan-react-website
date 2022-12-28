@@ -4,7 +4,7 @@ import EmailIcon from '@material-ui/icons/Email'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import TypeIt from 'typeit-react'
 import "../styles/Home.css"
-import Aidan from "../media/IMG_0194.jpeg"
+import Aidan from "../media/aidanPFP.jpg"
 import { Link } from '@material-ui/core'
 function Home() {
   return (
