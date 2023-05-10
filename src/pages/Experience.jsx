@@ -23,6 +23,7 @@ function Experience() {
           icon={experience.icon}>
             <img
               style={{
+                height: "3.3rem",
                 width: "10rem",
                 padding: "0.5rem",
                 border: "0.1rem solid black",

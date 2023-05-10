@@ -73,9 +73,8 @@ function Home() {
           <li className="item">
             <span>
               I am a 3rd year Computer Engineering and Management student at McMaster University.
-              With a passion for technology,
-              I have already completed 8-months of co-op and I am looking to gain experience in my next co-op term (May 2023).
-              I created this website to practice my programming skills, while also displaying personal projects and experiences.
+              With a passion for technology, I have already completed 12-months of co-op and I am looking to gain more experience in my next work term (May 2024).
+              I created this website to practice my programming skills, while also displaying my personal projects and work experiences.
             </span>
           </li>
         </ol>

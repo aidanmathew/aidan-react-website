@@ -2,6 +2,7 @@ import React from "react"
 import PCC from "../media/PCC.jpg"
 import MGT from "../media/MGT.jpg"
 import GEOTAB from "../media/geotab.jpg"
+import CIBC from "../media/CIBC.jpg"
 import Work from "@material-ui/icons/Work"
 import Apple from "@material-ui/icons/Apple"
 import { GrReactjs } from "react-icons/gr"
@@ -9,11 +10,23 @@ import { GrReactjs } from "react-icons/gr"
 export const ExperiencesList = [
 
     {
+        title: "Application Developer Co-op",
+        subtitle: "Toronto, Ontario",
+        date: "May 2023 - August 2023",
+        description: "CIBC Commercial Banking & Payments Technology - ",
+        skills: "ServiceNow",
+        link: "https://www.cibc.com/en/commercial.html",
+        application: "CIBC Commercial Banking",
+        img: CIBC,
+        icon: <Work />
+    },
+
+    {
         title: "Undergraduate Teaching Assistant - ENGINEER 1P13",
         subtitle: "Hamilton, Ontario",
         date: "January 2023 - April 2023",
-        description: "Incoming Design Studio Teaching Assistant for Engineer 1P13: ",
-        skills: "D2L Brightspace, Communication, Grading, MS Office, Teaching and Mentoring",
+        description: "Design Studio Teaching Assistant for Engineer 1P13: ",
+        skills: "Python, Quanser, Autodesk Inventor, D2L Brightspace, Communication, Grading, MS Office, Teaching and Mentoring",
         link: "https://www.eng.mcmaster.ca/integrated-cornerstone-design-projects-engineering-1p13",
         application: "Integrated Cornerstone Design Projects in Engineering",
         img: MGT,
