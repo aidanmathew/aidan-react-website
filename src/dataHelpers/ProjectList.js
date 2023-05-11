@@ -4,9 +4,25 @@ import P4 from "../media/social-care.gif"
 import Website from "../media/workplace.gif"
 import Covid from "../media/syringe.gif"
 import macAI from "../media/stethoscope.gif"
+import threeDim from "../media/3d-cube.gif"
+import heartbeat from "../media/heartbeat.gif"
 
 export const ProjectList = [
     
+    {
+        name: "Pacemaker",
+        image: heartbeat,
+        skills: "Simulink, Python, Git, pyserial, vsCode, real-time software",
+        link: "https://github.com/aidanmathew/SFWRENG-3K04"
+    },
+
+    {
+        name: "LiDAR 3D Mapper",
+        image: threeDim,
+        skills: "MSP432E401Y Microcontroller, I2C and UART communication, VL53L1X Time of Flight (ToF) Sensor, stepper motor, matplotlib, python",
+        link: "https://github.com/aidanmathew/LiDAR-3D-Mapper"
+    },
+
     {
         name: "Personal Website",
         image: Website,
