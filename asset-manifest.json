@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.5c8b129e.css",
-    "main.js": "/static/js/main.3624d553.js",
+    "main.js": "/static/js/main.a09a74cc.js",
     "static/js/787.ac4a919b.chunk.js": "/static/js/787.ac4a919b.chunk.js",
     "static/media/aidanPFP.jpg": "/static/media/aidanPFP.3cffe838cf4c8282cc0b.jpg",
+    "static/media/3d-cube.gif": "/static/media/3d-cube.3516f03c94ba1d9ef590.gif",
     "static/media/soda.gif": "/static/media/soda.f1fd1dc247a53612a953.gif",
     "static/media/stethoscope.gif": "/static/media/stethoscope.af926842b8bac9c7f394.gif",
     "static/media/syringe.gif": "/static/media/syringe.6a1c0667d4c8727861a9.gif",
+    "static/media/heartbeat.gif": "/static/media/heartbeat.b57ad2bc5e4f613ba4c3.gif",
     "static/media/social-care.gif": "/static/media/social-care.0e0be23e6d9c942f7083.gif",
     "static/media/claw-machine.gif": "/static/media/claw-machine.468549a75c9cfd295a8e.gif",
     "static/media/workplace.gif": "/static/media/workplace.5092d06d65ca103b2512.gif",
@@ -16,11 +18,11 @@
     "static/media/CIBC.jpg": "/static/media/CIBC.76685bdd3ee097f33401.jpg",
     "index.html": "/index.html",
     "main.5c8b129e.css.map": "/static/css/main.5c8b129e.css.map",
-    "main.3624d553.js.map": "/static/js/main.3624d553.js.map",
+    "main.a09a74cc.js.map": "/static/js/main.a09a74cc.js.map",
     "787.ac4a919b.chunk.js.map": "/static/js/787.ac4a919b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5c8b129e.css",
-    "static/js/main.3624d553.js"
+    "static/js/main.a09a74cc.js"
   ]
 }
