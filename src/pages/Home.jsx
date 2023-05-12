@@ -72,9 +72,13 @@ function Home() {
         <ol className="list">
           <li className="item">
             <span>
-              I am a 3rd year Computer Engineering and Management student at McMaster University.
-              With a passion for technology, I have already completed 12-months of co-op and I am looking to gain more experience in my next work term (May 2024).
-              I created this website to practice my programming skills, while also displaying my personal projects and work experiences.
+              I am a 3rd year Computer Engineering and Management student at McMaster University. With a passion for technology, I have already completed 12-months of co-op and I am looking to gain more experience in my next work term (May 2024).
+              
+              I created this website to practice my programming skills, while also displaying my personal projects and work experiences. <br /><br />
+
+              As I near the end of my academic journey and my final work term approaches, I am eager to take on a challenging and rewarding role that will set me up for success in my future career. With a passion for project management and a proven track record of success, I believe that I am the best fit for a TPM (Technical Program Manager) role.<br /><br />
+
+              Throughout my academic career, I have gained extensive experience in project management, including developing project plans, managing timelines, and leading cross-functional teams. In my previous co-op roles, I have had the opportunity to work on complex projects, consistently delivering high-quality work on time.
             </span>
           </li>
         </ol>

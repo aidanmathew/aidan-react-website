@@ -23,8 +23,11 @@ function Experience() {
           icon={experience.icon}>
             <img
               style={{
-                height: "3.3rem",
-                width: "10rem",
+                // height: "3.3rem",
+                // width: "10rem",
+                maxWidth: "12rem",
+                maxHeight: "none",
+                objectFit: "contain",
                 padding: "0.5rem",
                 border: "0.1rem solid black",
                 borderRadius: "10px"
@@ -64,7 +67,9 @@ function Experience() {
         >
           <img
             style={{
-              width: "10rem",
+              maxWidth: "12rem",
+              maxHeight: "none",
+              objectFit: "contain",
               padding: "0.5rem",
               border: "0.1rem solid black",
               borderRadius: "10px"
@@ -99,10 +104,12 @@ function Experience() {
         >
           <img
             style={{
-              width: "10rem",
-              padding: "0.5rem",
-              border: "0.1rem solid black",
-              borderRadius: "10px"
+              maxWidth: "12rem",
+                maxHeight: "none",
+                objectFit: "contain",
+                padding: "0.5rem",
+                border: "0.1rem solid black",
+                borderRadius: "10px"
             }}
             src={STA}
             alt=""
