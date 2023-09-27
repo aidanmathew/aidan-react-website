@@ -10,11 +10,23 @@ import { GrReactjs } from "react-icons/gr"
 export const ExperiencesList = [
 
     {
+        title: "Undergraduate Teaching Assistant - ENGINEER 1P13 and ENGMGT 2AA3",
+        subtitle: "Hamilton, Ontario",
+        date: "September 2023 - December 2023",
+        description: "Lab A Teaching Assistant for Engineer 1P13 and Core Teaching Assistant for EngMgt 2AA3: ",
+        skills: "Python, Quanser, Autodesk Inventor, D2L Brightspace, Communication, Grading, MS Office, Teaching and Mentoring",
+        link: "https://www.eng.mcmaster.ca/",
+        application: "Faculty of Engineering",
+        img: MGT,
+        icon: <Work />
+    },
+    
+    {
         title: "Application Developer Co-op",
         subtitle: "Toronto, Ontario",
         date: "May 2023 - August 2023",
         description: "CIBC Commercial Banking & Payments Technology - ",
-        skills: "ServiceNow",
+        skills: "ServiceNow, Zendesk, MS Office, Enterprise Change Management",
         link: "https://www.cibc.com/en/commercial.html",
         application: "CIBC Commercial Banking",
         img: CIBC,
