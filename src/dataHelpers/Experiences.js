@@ -3,6 +3,7 @@ import PCC from "../media/PCC.jpg"
 import MGT from "../media/MGT.jpg"
 import GEOTAB from "../media/geotab.jpg"
 import CIBC from "../media/CIBC.jpg"
+import MANULIFE from "../media/manulife.jpg"
 import Work from "@material-ui/icons/Work"
 import Apple from "@material-ui/icons/Apple"
 import { GrReactjs } from "react-icons/gr"
@@ -10,12 +11,36 @@ import { GrReactjs } from "react-icons/gr"
 export const ExperiencesList = [
 
     {
+        title: "Software Engineer Co-op",
+        subtitle: "Toronto, Ontario",
+        date: "May 2024 - August 2024",
+        description: "Global Wealth and Asset Management - Cannadian Retirement - ",
+        skills: "Java, Spring, React, Javascript",
+        link: "https://www.manulife.ca/business/group-retirement.html",
+        application: "Group Retirement Solutions",
+        img: MANULIFE,
+        icon: <Work />
+    },
+    
+    {
+        title: "Undergraduate Teaching Assistant - ENGINEER 1P13 and ENGINEER 2PX3",
+        subtitle: "Hamilton, Ontario",
+        date: "January 2024 - April 2024",
+        description: "Lab A Teaching Assistant for Engineer 1P13 and Design Studio Teaching Assistant for Engineer 2PX3: ",
+        skills: "Python, Quanser, Autodesk Inventor, D2L Brightspace, Communication, Grading, MS Office, Teaching and Mentoring",
+        link: "https://www.eng.mcmaster.ca/programs/undergraduate-programs-degrees/experiential-learning/1p13/",
+        application: "Faculty of Engineering",
+        img: MGT,
+        icon: <Work />
+    },
+    
+    {
         title: "Undergraduate Teaching Assistant - ENGINEER 1P13 and ENGMGT 2AA3",
         subtitle: "Hamilton, Ontario",
         date: "September 2023 - December 2023",
         description: "Lab A Teaching Assistant for Engineer 1P13 and Core Teaching Assistant for EngMgt 2AA3: ",
         skills: "Python, Quanser, Autodesk Inventor, D2L Brightspace, Communication, Grading, MS Office, Teaching and Mentoring",
-        link: "https://www.eng.mcmaster.ca/",
+        link: "https://www.eng.mcmaster.ca/programs/undergraduate-programs-degrees/experiential-learning/1p13/",
         application: "Faculty of Engineering",
         img: MGT,
         icon: <Work />
