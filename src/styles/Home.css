@@ -1,48 +1,60 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
 
 :root {
-    --navbarBackground: rgb(148,0,211);
-    --text: #fff;
+  --navbarBackground: rgb(148, 0, 211);
+  --text: #fff;
 }
 
 * {
-    font-family: "Roboto", sans-serif;
-  }
+  font-family: 'Roboto', sans-serif;
+}
 
 .home {
-    width: 100%;
-    height: auto;
-    align-items: center;
-    background-color: #4158D0;
-    background-image: linear-gradient(90deg, rgba(255,206,23,1) 0%, rgba(255,100,100,1) 50%);
-    display: flex;
-    flex-direction: column;
-  }
- 
+  width: 100%;
+  height: auto;
+  align-items: center;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 206, 23, 1) 0%,
+    rgba(255, 100, 100, 1) 50%
+  );
+  display: flex;
+  flex-direction: column;
+}
+
 .gradient {
-    background: linear-gradient(90deg, rgba(57,0,86,1) 0%, rgba(78,0,71,1) 100%);    
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: linear-gradient(
+    90deg,
+    rgba(57, 0, 86, 1) 0%,
+    rgba(78, 0, 71, 1) 100%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .about {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #4158D0;
-    background-image: linear-gradient(90deg, rgba(255,206,23,1) 0%, rgba(255,100,100,1) 50%);
-    color: #f0f0f0;
-  }
-  
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 206, 23, 1) 0%,
+    rgba(255, 100, 100, 1) 50%
+  );
+  color: #f0f0f0;
+}
+
 .about h2 {
-    font-size: 3rem;
-    color: --text;
-    height: 1rem;
-  }
+  font-size: 3rem;
+  color: --text;
+  height: 1rem;
+}
 
 .about .aidanImage {
   width: 17vw;
@@ -52,59 +64,59 @@
 
 @media only screen and (max-width: 600px) {
   .about .aidanImage {
-      width: 40vw;
+    width: 40vw;
   }
 
   .about h2 {
     font-size: 2rem;
   }
 }
-  
+
 .about .prompt {
-    width: 90%;
-    font-size: 2rem;
-  }
+  width: 90%;
+  font-size: 2rem;
+}
 
 .prompt svg {
-    font-size: 60px;
-    margin: 5px;
-    color: white;
-  }
+  font-size: 60px;
+  margin: 5px;
+  color: white;
+}
 
 .prompt svg:hover {
-    font-size: 60px;
-    margin: 5px;
-    color: rgba(57,0,86,1);
-  }
-  
+  font-size: 60px;
+  margin: 5px;
+  color: rgba(57, 0, 86, 1);
+}
+
 .skills {
-    font-size: 35px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  
+  font-size: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 .skills h1 {
-    color: black;
-    font-size: 3rem;
-    margin-bottom: 0%;
-    text-decoration: underline;
-  }
-  
+  color: black;
+  font-size: 3rem;
+  margin-bottom: 0%;
+  text-decoration: underline;
+}
+
 .skills .list {
-    list-style: none;
-    width: 100%;
-    padding: 0%;
-  }
-  
+  list-style: none;
+  width: 100%;
+  padding: 0%;
+}
+
 .list span {
-    font-size: 20px;
-    font-weight: 300;
-  }
-  
+  font-size: 20px;
+  font-weight: 300;
+}
+
 .item {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -112,16 +124,15 @@
   border-radius: 0.5rem;
   padding: 1rem;
 }
-  
+
 @media only screen and (max-width: 600px) {
-  
-.about .prompt {
+  .about .prompt {
     margin-top: -1.2rem;
     font-size: 20px;
     width: 80%;
-}
+  }
 
-.skills {
+  .skills {
     font-size: 35px;
     width: 100%;
     display: flex;
@@ -129,17 +140,17 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-}
+  }
 
-.skills h1 {
-  margin-left: 0rem;
-}
+  .skills h1 {
+    margin-left: 0rem;
+  }
 
-.list {
+  .list {
     padding: 0;
-}
+  }
 
-.skills h2 {
+  .skills h2 {
     font-size: 30px;
-}
+  }
 }
